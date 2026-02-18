@@ -34,7 +34,7 @@ class _LoginIntroPageState extends State<LoginIntroPage> {
   Future<void> login() async {
     try {
       final response = await http.post(
-        Uri.parse("https://voting-c6gqfjhxffbucyfy.westeurope-01.azurewebsites.net//login"),
+        Uri.parse("https://voting-c6gqfjhxffbucyfy.westeurope-01.azurewebsites.net/login"),
         headers: {"Content-Type": "application/json"},
         body: jsonEncode({
           "username": usernameController.text.trim(),
@@ -246,3 +246,4 @@ class _LoginIntroPageState extends State<LoginIntroPage> {
     );
   }
 }
+
