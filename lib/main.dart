@@ -162,27 +162,7 @@ class _LoginIntroPageState extends State<LoginIntroPage> {
 
                       const SizedBox(height: 15),
 
-                      // ADMIN BUTTON (kept same design)
-                      ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.white,
-                          foregroundColor: primaryColor,
-                          padding: const EdgeInsets.symmetric(
-                              vertical: 16),
-                        ),
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) =>
-                                  const AdminPage(),
-                            ),
-                          );
-                        },
-                        child: const Text(
-                          "Admin",
-                          style: TextStyle(fontSize: 16),
-                        ),
+                      
                       ),
                     ],
                   ),
@@ -246,4 +226,5 @@ class _LoginIntroPageState extends State<LoginIntroPage> {
     );
   }
 }
+
 
