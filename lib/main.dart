@@ -163,7 +163,7 @@ class _LoginIntroPageState extends State<LoginIntroPage> {
                       const SizedBox(height: 15),
 
                       
-                      ),
+                     
                     ],
                   ),
                 ),
